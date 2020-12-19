@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="michaelkors" duration-ms="474387" started-at="2020-12-17T17:19:16 EST" finished-at="2020-12-17T17:27:10 EST">
+    <groups>
+      <group name="regression">
+        <method signature="TC_HandBagsTest_007.HandBagsTest()[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="HandBagsTest" class="com.michaelkors.testCases.TC_HandBagsTest_007"/>
+        <method signature="TC_JoinTest_001.JoinTest()[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="JoinTest" class="com.michaelkors.testCases.TC_JoinTest_001"/>
+        <method signature="TC_LoginTest_003.LoginTest()[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="LoginTest" class="com.michaelkors.testCases.TC_LoginTest_003"/>
+        <method signature="TC_ShoesTest_009.ShoesTest()[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="ShoesTest" class="com.michaelkors.testCases.TC_ShoesTest_009"/>
+        <method signature="TC_WalletsTest_008.WalletsTest()[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="WalletsTest" class="com.michaelkors.testCases.TC_WalletsTest_008"/>
+        <method signature="TC_WomenTest_005.WomenTest()[pri:0, instance:com.michaelkors.testCases.TC_WomenTest_005@51f116b8]" name="WomenTest" class="com.michaelkors.testCases.TC_WomenTest_005"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_HandBagsTest_007.HandBagsTest()[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="HandBagsTest" class="com.michaelkors.testCases.TC_HandBagsTest_007"/>
+        <method signature="TC_JoinTest_001.JoinTest()[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="JoinTest" class="com.michaelkors.testCases.TC_JoinTest_001"/>
+        <method signature="TC_LoginTest_003.LoginTest()[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="LoginTest" class="com.michaelkors.testCases.TC_LoginTest_003"/>
+        <method signature="TC_MenTest_006.MenTest()[pri:0, instance:com.michaelkors.testCases.TC_MenTest_006@19d481b]" name="MenTest" class="com.michaelkors.testCases.TC_MenTest_006"/>
+        <method signature="TC_ShoesTest_009.ShoesTest()[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="ShoesTest" class="com.michaelkors.testCases.TC_ShoesTest_009"/>
+        <method signature="TC_WalletsTest_008.WalletsTest()[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="WalletsTest" class="com.michaelkors.testCases.TC_WalletsTest_008"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_HandBagsTest_007.HandBagsTest()[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="HandBagsTest" class="com.michaelkors.testCases.TC_HandBagsTest_007"/>
+        <method signature="TC_JoinDDT_002.JoinDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="JoinDDT" class="com.michaelkors.testCases.TC_JoinDDT_002"/>
+        <method signature="TC_JoinTest_001.JoinTest()[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="JoinTest" class="com.michaelkors.testCases.TC_JoinTest_001"/>
+        <method signature="TC_LoginDDT_004.loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="loginTest" class="com.michaelkors.testCases.TC_LoginDDT_004"/>
+        <method signature="TC_LoginTest_003.LoginTest()[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="LoginTest" class="com.michaelkors.testCases.TC_LoginTest_003"/>
+        <method signature="TC_MenTest_006.MenTest()[pri:0, instance:com.michaelkors.testCases.TC_MenTest_006@19d481b]" name="MenTest" class="com.michaelkors.testCases.TC_MenTest_006"/>
+        <method signature="TC_ShoesTest_009.ShoesTest()[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="ShoesTest" class="com.michaelkors.testCases.TC_ShoesTest_009"/>
+        <method signature="TC_WalletsTest_008.WalletsTest()[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="WalletsTest" class="com.michaelkors.testCases.TC_WalletsTest_008"/>
+        <method signature="TC_WomenTest_005.WomenTest()[pri:0, instance:com.michaelkors.testCases.TC_WomenTest_005@51f116b8]" name="WomenTest" class="com.michaelkors.testCases.TC_WomenTest_005"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="chrometest" duration-ms="474387" started-at="2020-12-17T17:19:16 EST" finished-at="2020-12-17T17:27:10 EST">
+      <class name="com.michaelkors.testCases.TC_JoinTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="setup" is-config="true" duration-ms="5549" started-at="2020-12-17T17:19:16 EST" finished-at="2020-12-17T17:19:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="JoinTest()[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="JoinTest" duration-ms="18884" started-at="2020-12-17T17:19:22 EST" finished-at="2020-12-17T17:19:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_JoinTest_001@6a370f4]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-12-17T17:19:41 EST" finished-at="2020-12-17T17:19:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_JoinTest_001 -->
+      <class name="com.michaelkors.testCases.TC_HandBagsTest_007">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="setup" is-config="true" duration-ms="3512" started-at="2020-12-17T17:24:37 EST" finished-at="2020-12-17T17:24:40 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HandBagsTest()[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="HandBagsTest" duration-ms="37482" started-at="2020-12-17T17:24:40 EST" finished-at="2020-12-17T17:25:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandBagsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_HandBagsTest_007@1f97cf0d]" name="tearDown" is-config="true" duration-ms="111" started-at="2020-12-17T17:25:18 EST" finished-at="2020-12-17T17:25:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_HandBagsTest_007 -->
+      <class name="com.michaelkors.testCases.TC_ShoesTest_009">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="setup" is-config="true" duration-ms="3332" started-at="2020-12-17T17:26:05 EST" finished-at="2020-12-17T17:26:08 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ShoesTest()[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="ShoesTest" duration-ms="61951" started-at="2020-12-17T17:26:08 EST" finished-at="2020-12-17T17:27:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_ShoesTest_009@4d910fd6]" name="tearDown" is-config="true" duration-ms="228" started-at="2020-12-17T17:27:10 EST" finished-at="2020-12-17T17:27:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_ShoesTest_009 -->
+      <class name="com.michaelkors.testCases.TC_LoginDDT_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="setup" is-config="true" duration-ms="3350" started-at="2020-12-17T17:20:58 EST" finished-at="2020-12-17T17:21:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="loginTest" duration-ms="21532" started-at="2020-12-17T17:21:02 EST" data-provider="LoginData" finished-at="2020-12-17T17:21:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="loginTest" duration-ms="43697" started-at="2020-12-17T17:21:23 EST" data-provider="LoginData" finished-at="2020-12-17T17:22:07 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="loginTest" duration-ms="43863" started-at="2020-12-17T17:22:07 EST" data-provider="LoginData" finished-at="2020-12-17T17:22:51 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="loginTest" duration-ms="43908" started-at="2020-12-17T17:22:51 EST" data-provider="LoginData" finished-at="2020-12-17T17:23:35 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khanasif@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_LoginDDT_004@4cc8eb05]" name="tearDown" is-config="true" duration-ms="366" started-at="2020-12-17T17:23:35 EST" finished-at="2020-12-17T17:23:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_LoginDDT_004 -->
+      <class name="com.michaelkors.testCases.TC_MenTest_006">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_MenTest_006@19d481b]" name="setup" is-config="true" duration-ms="3414" started-at="2020-12-17T17:24:13 EST" finished-at="2020-12-17T17:24:17 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="MenTest()[pri:0, instance:com.michaelkors.testCases.TC_MenTest_006@19d481b]" name="MenTest" duration-ms="19886" started-at="2020-12-17T17:24:17 EST" finished-at="2020-12-17T17:24:37 EST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="Select-value">...</div> is not clickable at point (1129, 516). Other element would receive the click: <label>...</label>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 349367946db0880ae70b9f9498588d7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Select-value">...</div> is not clickable at point (1129, 516). Other element would receive the click: <label>...</label>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 349367946db0880ae70b9f9498588d7e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy33.click(Unknown Source)
+at com.michaelkors.pageObjects.MenPage.clickdropdown(MenPage.java:86)
+at com.michaelkors.testCases.TC_MenTest_006.MenTest(TC_MenTest_006.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MenTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_MenTest_006@19d481b]" name="tearDown" is-config="true" duration-ms="116" started-at="2020-12-17T17:24:37 EST" finished-at="2020-12-17T17:24:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_MenTest_006 -->
+      <class name="com.michaelkors.testCases.TC_JoinDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="setup" is-config="true" duration-ms="3398" started-at="2020-12-17T17:19:41 EST" finished-at="2020-12-17T17:19:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="JoinDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="JoinDDT" duration-ms="17906" started-at="2020-12-17T17:19:46 EST" data-provider="JoinData" finished-at="2020-12-17T17:20:04 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8817]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Passed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinDDT -->
+        <test-method status="FAIL" signature="JoinDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="JoinDDT" duration-ms="4550" started-at="2020-12-17T17:20:04 EST" data-provider="JoinData" finished-at="2020-12-17T17:20:09 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khanasif@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin124]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8817]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[failed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34e006585a6b8856785b72673797d0d8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34e006585a6b8856785b72673797d0d8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:115)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy33.sendKeys(Unknown Source)
+at com.michaelkors.pageObjects.JoinPage.setLastName(JoinPage.java:74)
+at com.michaelkors.testCases.TC_JoinDDT_002.JoinDDT(TC_JoinDDT_002.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinDDT -->
+        <test-method status="PASS" signature="JoinDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="JoinDDT" duration-ms="13430" started-at="2020-12-17T17:20:09 EST" data-provider="JoinData" finished-at="2020-12-17T17:20:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin125]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8817]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinDDT -->
+        <test-method status="PASS" signature="JoinDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="JoinDDT" duration-ms="13670" started-at="2020-12-17T17:20:22 EST" data-provider="JoinData" finished-at="2020-12-17T17:20:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khanasif.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin126]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8817]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_JoinDDT_002@2abf4075]" name="tearDown" is-config="true" duration-ms="151" started-at="2020-12-17T17:20:36 EST" finished-at="2020-12-17T17:20:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_JoinDDT_002 -->
+      <class name="com.michaelkors.testCases.TC_WomenTest_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_WomenTest_005@51f116b8]" name="setup" is-config="true" duration-ms="3518" started-at="2020-12-17T17:23:35 EST" finished-at="2020-12-17T17:23:39 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="WomenTest()[pri:0, instance:com.michaelkors.testCases.TC_WomenTest_005@51f116b8]" name="WomenTest" duration-ms="34552" started-at="2020-12-17T17:23:39 EST" finished-at="2020-12-17T17:24:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WomenTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_WomenTest_005@51f116b8]" name="tearDown" is-config="true" duration-ms="115" started-at="2020-12-17T17:24:13 EST" finished-at="2020-12-17T17:24:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_WomenTest_005 -->
+      <class name="com.michaelkors.testCases.TC_LoginTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="setup" is-config="true" duration-ms="3380" started-at="2020-12-17T17:20:36 EST" finished-at="2020-12-17T17:20:39 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="LoginTest" duration-ms="18825" started-at="2020-12-17T17:20:39 EST" finished-at="2020-12-17T17:20:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_LoginTest_003@770d3326]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-12-17T17:20:58 EST" finished-at="2020-12-17T17:20:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_LoginTest_003 -->
+      <class name="com.michaelkors.testCases.TC_WalletsTest_008">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="setup" is-config="true" duration-ms="4064" started-at="2020-12-17T17:25:18 EST" finished-at="2020-12-17T17:25:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="WalletsTest()[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="WalletsTest" duration-ms="42911" started-at="2020-12-17T17:25:22 EST" finished-at="2020-12-17T17:26:05 EST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title='BRN/ACORN']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 728a85f55919a23a38cdcea121034e5d
+*** Element info: {Using=xpath, value=//input[@title='BRN/ACORN']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title='BRN/ACORN']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 728a85f55919a23a38cdcea121034e5d
+*** Element info: {Using=xpath, value=//input[@title='BRN/ACORN']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy33.click(Unknown Source)
+at com.michaelkors.pageObjects.WalletsPage.clickBRNACORN(WalletsPage.java:98)
+at com.michaelkors.testCases.TC_WalletsTest_008.WalletsTest(TC_WalletsTest_008.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.michaelkors.testCases.TC_WalletsTest_008@140c9f39]" name="tearDown" is-config="true" duration-ms="100" started-at="2020-12-17T17:26:05 EST" finished-at="2020-12-17T17:26:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.michaelkors.testCases.TC_WalletsTest_008 -->
+    </test> <!-- chrometest -->
+  </suite> <!-- michaelkors -->
+</testng-results>

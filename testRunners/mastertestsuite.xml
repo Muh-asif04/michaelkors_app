@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="michaelkors Master Suite" thread-count="9">
+	<parameter name="browser" value="chrome" />
+	<!-- <parameter name="browser" value="edge"/>  -->
+	<!-- <parameter name="browser" value="firefox"/> -->
+	 	
+	 <listeners>
+		<listener
+			class-name="com.michaelkors.utilities.ExtentReportManager" />
+	</listeners>
+	
+	<test name="michaelkorsTests" >
+		<packages>
+      		<package name="com.michaelkors.testCases" />
+      	</packages>
+	
+	</test>
+  
+</suite>

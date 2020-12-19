@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="michaelkors" parallel="tests" thread-count="9">
+
+		<listeners>
+			<listener class-name="com.michaelkors.utilities.ExtentReportManager"/>
+		</listeners>
+		
+		
+	<test name="chrometest">
+			<parameter name="browser" value="chrome"/>
+			<classes>
+				<class name="com.michaelkors.testCases.TC_JoinTest_001"/>
+				<class name="com.michaelkors.testCases.TC_JoinDDT_002"/>
+				<class name="com.michaelkors.testCases.TC_LoginTest_003"/>
+				<class name="com.michaelkors.testCases.TC_LoginDDT_004"/>
+				<class name="com.michaelkors.testCases.TC_WomenTest_005"/>
+				<class name="com.michaelkors.testCases.TC_MenTest_006"/>
+				<class name="com.michaelkors.testCases.TC_HandBagsTest_007"/>
+				<class name="com.michaelkors.testCases.TC_WalletsTest_008"/>
+				<class name="com.michaelkors.testCases.TC_ShoesTest_009"/>
+			</classes>
+		</test>
+		
+		<!--  test name="edgetest">
+			<parameter name="browser" value="edge"/>
+			<classes>
+				<class name="com.michaelkors.testCases.TC_JoinTest_001"/>
+			</classes>
+		</test>
+		
+		<test name="firefoxtest">
+			<parameter name="browser" value="firefox"/>
+			<classes>
+				<class name="com.michaelkors.testCases.TC_JoinTest_001"/>
+			</classes>
+		</test>-->
+		
+</suite>

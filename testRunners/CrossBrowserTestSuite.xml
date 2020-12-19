@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="michaelkors CrossBrowser Suite" parallel="tests" thread-count="9">
+	 
+	<parameter name="browser" value="chrome" />
+	<!-- <parameter name="browser" value="edge"/>  -->
+	<!-- <parameter name="browser" value="firefox"/> -->
+	 	
+	 <listeners>
+		<listener
+			class-name="com.michaelkors.utilities.ExtentReportManager" />
+	</listeners>
+	
+	<test name="michaelkorsTests" >
+		<classes>
+				<class name="com.michaelkors.testCases.TC_JoinTest_001"/>
+				<class name="com.michaelkors.testCases.TC_JoinDDT_002"/>
+				<class name="com.michaelkors.testCases.TC_LoginTest_003"/>
+				<class name="com.michaelkors.testCases.TC_LoginDDT_004"/>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 1,016.789 s <<< FAILURE! - in TestSuite
+com.michaelkors.testCases.TC_HandBagsTest_007.HandBagsTest  Time elapsed: 19.883 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="pdp-label color-label">...</span> is not clickable at point (1118, 378). Other element would receive the click: <label>...</label>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ce621b30f2cb8a35cbcaaf0c8012f3db
+	at com.michaelkors.testCases.TC_HandBagsTest_007.HandBagsTest(TC_HandBagsTest_007.java:27)
+
+com.michaelkors.testCases.TC_LoginTest_003.LoginTest  Time elapsed: 20.578 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e6545a772c112d2a2297e1bd1a06dd90
+	at com.michaelkors.testCases.TC_LoginTest_003.LoginTest(TC_LoginTest_003.java:32)
+
+com.michaelkors.testCases.TC_MenTest_006.MenTest  Time elapsed: 20.725 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="Select-value">...</div> is not clickable at point (1129, 516). Other element would receive the click: <label>...</label>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: da5afaaceebce99efe6e5ae2426824d7
+	at com.michaelkors.testCases.TC_MenTest_006.MenTest(TC_MenTest_006.java:29)
+
+com.michaelkors.testCases.TC_WalletsTest_008.WalletsTest  Time elapsed: 45.826 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 63b4dba979b22b2ea2e4e29c43223361
+	at com.michaelkors.testCases.TC_WalletsTest_008.WalletsTest(TC_WalletsTest_008.java:27)
+
+com.michaelkors.testCases.TC_LoginTest_003.LoginTest  Time elapsed: 20.866 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 14a10d4273fa1d117a049edcefb61e63
+	at com.michaelkors.testCases.TC_LoginTest_003.LoginTest(TC_LoginTest_003.java:32)
+
+com.michaelkors.testCases.TC_MenTest_006.MenTest  Time elapsed: 22.426 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="Select-value">...</div> is not clickable at point (1129, 516). Other element would receive the click: <label>...</label>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56423}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1d840905854cda30165e0ab3f91073d8
+	at com.michaelkors.testCases.TC_MenTest_006.MenTest(TC_MenTest_006.java:29)
+
+com.michaelkors.testCases.TC_ShoesTest_009.ShoesTest  Time elapsed: 44.33 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='Keke Suede Pump']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 001d75fe58af8444e571e21e58b98eb1
+*** Element info: {Using=xpath, value=//img[@alt='Keke Suede Pump']}
+	at com.michaelkors.testCases.TC_ShoesTest_009.ShoesTest(TC_ShoesTest_009.java:26)
+
+com.michaelkors.testCases.TC_WalletsTest_008.WalletsTest  Time elapsed: 65.466 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-IIRF7F8F', ip: '192.168.4.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\muhas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e6301fdfa85654b40bf37b4c68c108fc
+	at com.michaelkors.testCases.TC_WalletsTest_008.WalletsTest(TC_WalletsTest_008.java:27)
+
