@@ -4,7 +4,7 @@ public class Dummy {
 
   
   @Test
-	void test123()
+	void test124()
 	{
 		Assert.assertTrue(true);
 	}
